@@ -50,6 +50,12 @@ The package implements a multi-stage installation process:
    - Configures user-specific language and keyboard settings
    - Records completion status
 
+## Deployment via EXE
+
+1. Download ZIP and extract.
+2. Run `Deploy-Application.exe` as an administrator.
+
+
 ## Deployment via Intune
 
 ### Installation Command
@@ -59,6 +65,8 @@ The package implements a multi-stage installation process:
 
 ### Detection Method
 Registry Key Path: `HKEY_LOCAL_MACHINE\SOFTWARE\LanguageSetup`
+
+![registry setup for Intune Win32](img/image.png)
 
 ### Intune Configuration
 1. Create a new Win32 app in Intune
