@@ -38,7 +38,7 @@ Try {
     ##* VARIABLE DECLARATION
     ##*===============================================
     ## Variables: Application
-    [string]$appVendor = 'Celerion'
+    [string]$appVendor = 'Adam'
     [string]$appName = 'Language installation'
     [string]$appVersion = '1.0.0'
     [string]$appArch = ''
@@ -46,8 +46,8 @@ Try {
     [string]$appRevision = '01'
     [string]$appScriptVersion = '1.0.0'
     [string]$appScriptDate = Get-Date -Format 'yyyy-MM-dd'
-    [string]$appScriptAuthor = 'Your Name'
-    [string]$deployAppScriptFriendlyName = 'Celerion Language Configuration'
+    [string]$appScriptAuthor = 'Adam Gell'
+    [string]$deployAppScriptFriendlyName = 'Adam Language Configuration'
 
     ##* Do not modify section below
     #region DoNotModify
@@ -106,7 +106,7 @@ Try {
             }
         }
         catch {
-            Write-Log "Failed to install language: $_" -Level Warning
+            Write-Log "Failed to install language: $_"
         }
     }
 
